@@ -19,7 +19,7 @@ GET : Get user Subscription Details
 2. Valid till ?
 3. Fine if any 
 
-# /books
+## /books
 GET : Get all the books
 POST : Add a new book
 
@@ -28,7 +28,7 @@ POST : Add a new book
 GET : Get a book by ID
 POST : Update a book by ID
 
-# /books/issued
+## /books/issued
 GET : Get all the issued books
 
 ## /books/issued/withFine
