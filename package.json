@@ -1,0 +1,26 @@
+{
+  "name": "book-record-managment",
+  "version": "1.0.0",
+  "description": "This is an application called Book Record Managment / API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "run" : "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anshika0604/book_record_managment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anshika0604/book_record_managment/issues"
+  },
+  "homepage": "https://github.com/anshika0604/book_record_managment#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
