@@ -22,6 +22,11 @@ const bookSchema =  new Schema({
     publisher: {
         type: String,
         required: true,
-    }
+    },
+},
+{
+    timestamps: true,
 }
 );
+
+module.exports = mongoose.model("Book",bookSchema);
