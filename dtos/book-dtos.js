@@ -1,4 +1,4 @@
-// DTO - Data Transfer Object
+// DTOs - Data Transfer Object
 
 class IssuedBook{
     _id;
