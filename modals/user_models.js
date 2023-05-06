@@ -23,15 +23,15 @@ const userSchema =  new Schema(
         },
         returnDate: {
             type: String,
-            required: true
+            required:false,
         },
         subscriptionType: {
             type: String,
-            required: true
+            required: true,
         },
         subscriptionDate: {
             type: String,
-            required: true
+            required: true,
         },
     },
     {
